@@ -1,0 +1,92 @@
+.button {
+    width: 66px;
+    padding: 20px;
+    margin: 0 5px;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+body {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+
+}
+
+.row {
+    margin: 34px;
+}
+
+.row input {
+    font-weight: bolder;
+    color: black;
+    font-size: 15px;
+    border: 2px solid black;
+    padding: 11px 38px;
+    margin: 0px 24px;
+    border-radius: 7px;
+}
+
+.main-div {
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 391px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #121c25;
+}
+
+.container {
+    /* background-color: red; */
+    /* padding: 0px;
+    margin: 0px; */
+    height: 600px;
+    cursor: pointer;
+
+}
+
+.row button {
+    color: rgb(39 160 242);
+    font-weight: bolder;
+    transition: all 1s ease-in;
+
+
+}
+
+.row input {
+    transition: all 50ms ease-in;
+    color: black;
+}
+
+.row :hover {
+    background-color: hsl(208.7deg 100% 54.9%);
+    /* color: white; */
+    color: black;
+
+}
+
+.row input:hover {
+    background-color: hsla(182, 67%, 49%, 0.706);
+    color: black;
+
+}
+
+.paragraph {
+    color: white;
+    cursor: pointer;
+    transition: all 1s ease-in;
+}
+
+.paragraph h4 {
+    margin: 0px 12px;
+}
+
+.paragraph:hover {
+    font-size: 20px;
+    color: blanchedalmond;
+    /* color: #e68989; */
+}
